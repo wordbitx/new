@@ -55,7 +55,7 @@ export function Footer({ onLegalClick }: FooterProps) {
             <div className="lg:col-span-2">
               <div className="flex items-center gap-3 mb-6">
                 <div className="w-12 h-12 bg-[#2979FF] rounded-xl flex items-center justify-center">
-                  <span className="text-white font-bold text-xl">CR</span>
+                  <span className="text-white font-bold text-xl">CC</span>
                 </div>
                 <span className="font-bold text-2xl">{companyInfo.name}</span>
               </div>
