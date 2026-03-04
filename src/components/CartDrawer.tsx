@@ -109,8 +109,8 @@ export function CartDrawer({ isOpen, onClose, onProceedToCheckout }: CartDrawerP
             </div>
 
             {/* Cart Footer */}
-            <div className="border-t border-gray-200 pt-4 mt-auto">
-              <div className="space-y-2 mb-4">
+<div className="border-t border-gray-200 pt-4 mt-auto px-6">
+  <div className="space-y-2 mb-4">
                 <div className="flex justify-between text-[#5A6E8F]">
                   <span>Subtotal</span>
                   <span>${orderSummary.subtotal.toFixed(2)}</span>
